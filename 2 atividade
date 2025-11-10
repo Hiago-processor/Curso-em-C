@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main(){
+/*Faça um programa em C para calcular a média aritmética de três
+números inteiros.*/
+
+int number1, number2, number3, media;
+    printf("Qual foi sua primeira nota: ");
+    scanf("%d", &number1);
+    
+    printf("Qual foi sua segunda nota: ");
+    scanf("%d", &number2);
+    
+    printf("Qual foi sua terceira nota: ");
+    scanf("%d", &number3);
+
+media = (number1 + number2 + number3)/3;
+    printf ("Sua media é de: %d", media);
+return 0;
+    
+}
