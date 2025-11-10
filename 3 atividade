@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(){
+/*O sistema de avaliação determinada disciplina é composto por
+três provas. A primeira primeira prova tem peso 2, a segunda segunda tem peso 3 e
+a terceira tem peso 5. Faça um programa em C para calcular a
+média final de um aluno nesta disciplina.*/
+
+float pr1, pr2, pr3, media;
+printf ("Sua média na prova1: ");
+scanf("%f", &pr1);
+
+printf("Sua média na prova2: ");
+scanf("%f", &pr2);
+
+printf("Sua média na prova3: ");
+scanf("%f", &pr3);
+
+media = ((pr1*2) + (pr2*3) + (pr3*5))/10.0;
+printf("Sua media das 3 provas são: %.2f", media);
+return 0;
+    
+}
