@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(){
+/*Faça um programa em C que calcule o salário líquido de um
+funcionário, considerando que sobre o seu salário bruto,
+incide um desconto de 10% para previdência. O programa
+deve mostrar o nome do funcionário, o seu salário bruto e o
+seu salário líquido.*/
+char nome[20];
+float moneyB, moneyL;
+
+printf("Bem-Vindo ao sistema de calculo de salario líquido e bruto!\n");
+printf("Seu nome: ");
+scanf("%s", nome);
+
+printf("Seu valor de dinheiro bruto:R$ ");
+scanf("%f", &moneyB);
+
+moneyL = moneyB -( moneyB * 0.1);
+printf("Seu valor liquido será de: %2.f\n", moneyL);
+printf("\nTABELA\n Nome: %s\n Valor Bruto: %2.f\n Valor Líquido: %2.f", nome, moneyB, moneyL);
+
+
+return 0;
+    
+}
