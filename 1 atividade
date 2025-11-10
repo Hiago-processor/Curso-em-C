@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    //Faça um programa em C para somar dois números inteiros e
+multiplicar o resultados por 3.
+    int number1, number2, result;
+    printf("Olá, vamos somar e multiplicar por 3?\n");
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &number1);
+    printf("Digite outro numero:");
+    scanf("%d", &number2);
+    result = (number1 + number2)*3;
+    printf("Sua soma vai ser (%d + %d) x 3\n", number1, number2);
+    printf("Resultado: %d", result);
+}
