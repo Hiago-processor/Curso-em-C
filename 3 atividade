@@ -16,7 +16,7 @@ printf("Sua média na prova3: ");
 scanf("%f", &pr3);
 
 media = ((pr1*2) + (pr2*3) + (pr3*5))/10.0;
-printf("Sua media das 3 provas são: %.2f", media);
+printf("Sua media das 3 provas são: %.1f", media);
 return 0;
     
 }
