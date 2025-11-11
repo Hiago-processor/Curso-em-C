@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int c, f;
+    printf("Programa de fahrenheit");
+    printf("\nEscolha um graus C: ");
+    scanf("%d", &c);
+    
+    f = (1.8 * c);
+    printf("Resultado: %d", f);
+    return 0;
+}
