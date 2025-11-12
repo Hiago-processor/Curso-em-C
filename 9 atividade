@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+    /*Faça um programa em C que calcula os gastos com combustível
+em uma viagem. O programa deve solicitar ao usuário a distância
+a ser percorrida em Km, o consumo do carro em Km/litro e o
+preço do litro do combustível. Como resposta o programa deverá
+informar qual o valor em R$ a ser gasto com combustível na
+viagem.*/
+int main() {
+    int d, c, preco, result;
+    printf("Qual a distancia percorrida?\nR: ");
+    scanf("%d", &d);
+    
+    printf("Qual o consumo do carro em km?\nR: ");
+    scanf("%d", &c);
+    
+    printf("Qual foi o preço do combustivel?\nR: ");
+    scanf("%d", &preco);
+    
+    result = (d * c) *preco;
+    printf("resultado: %d", result);
+    return 0;
+}
